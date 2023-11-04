@@ -1,0 +1,722 @@
+* {
+    font-family: 'Monstserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 90.5%;
+    overflow-x: hidden;
+}
+
+
+#Banner-inicial {
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/img3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+.logo {
+    font-family: "Monstserrat";
+    color: purple;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 35px;
+    line-height: 50px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+}
+
+.button-customize1 {
+    display: inline-block;
+    padding: 1.5px 1.5px;
+    color: purple;
+    text-decoration: none;
+    margin: 0 10px;
+    background-color: rgba(255, 255, 0, 0.863);
+    border-radius: 50px;
+    font-size: 15px;
+    width: 80px;
+    cursor: pointer;
+    transition: background-color 0,2s;
+
+}
+
+.button-customize1:hover{
+    background-color: rgba(255, 255, 0, 0.863);
+}
+
+.banner {
+    padding: 54px 0;
+    padding: 0 54px;
+    display: flex;
+    justify-content: center;
+}
+
+#disclaimer {
+    font-family: "Monstserrat";
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    text-align: center; 
+    padding: 0 90px;
+    margin: 150px;
+}
+
+#disclaimer .h2 {
+    font-size: 25px;
+    color: white;
+}
+
+#disclaimer .h3 {
+    font-size: 45px;
+    color: white; 
+}
+
+
+.banner .banner-inicial {
+    margin: 150px;
+    text-align: center;
+    justify-content: center;
+    padding: 0 90px;
+}
+
+
+.button-customize {
+    font-family: "Monstserrat";
+    background-color:  rgb(197, 228, 21);
+    color: purple;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0,2s;
+}
+
+.button-customize:hover{
+    background-color: rgba(231, 231, 15, 0.712);
+}
+.NossosServiços {
+    background-color: purple;
+}
+.NossosServiços h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.NossosServiços .ods {
+    color: white;
+}
+.NossosServiços p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.servicos {
+    display: flex;
+    justify-content: center;
+}
+
+.NossosServiços .card-item {
+    background-color: rgb(197, 228, 21);
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+
+.NossosServiços .card-item img {
+    border-radius: 100%;
+    width: 80px;
+    margin: 10px auto;
+}
+
+.NossosServiços .card-item .nome1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.NossosServiços .card-item .nome2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.NossosServiços .card-item:hover {
+    background-color: rgb(212, 212, 21);
+    margin-top: -5px;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+.portfolio {
+    background-color: purple;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.portfolio .h3n {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.portfolio .p1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+.port {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio .cards {
+    justify-content: center;
+    background-color: rgb(197, 228, 21);
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    transition: 0.3s;
+}
+
+.portfolio .cards img {
+    border-radius: 10%;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.look {
+    font-size: 18px;
+}
+
+.sobrenos {
+    background-color: purple;
+}
+
+.h31 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.linhadotempo {
+    position: relative;
+    padding: 40px auto;
+    margin: 50px auto;
+    width: 1000px;
+}
+
+.linhadotempo:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: rgb(197, 228, 21);
+}
+
+
+.linhadotempo .ul2 {
+    margin: 0;
+    padding: 0;
+}
+
+.linhadotempo .ul2 .li2 {
+    list-style: none;;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+
+.content {
+    padding-bottom: 20px;
+}
+
+.linhadotempo .ul2 .li2:before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+
+}
+
+.linhadotempo .ul2 .li2 .hcri {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: rgb(197, 228, 21);
+    font-size: 30px;
+}
+
+.linhadotempo .ul2 .li2 .pcri {
+    margin: 10px 0 0;
+    color: white;
+    padding: 0;
+}
+
+.linhadotempo .ul2 .li2 .tempo {
+    position: absolute;
+    top: 12px;
+    right: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background: rgb(197, 228, 21);
+    color: purple;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgb(197, 228, 21, 0.3);
+}
+
+
+.nossotime {
+    background-color: purple;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.nossotime .h4n {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.nossotime .p2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+.noss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nossotime .cards2 {
+    justify-content: center;
+    background-color: rgb(197, 228, 21);
+    margin: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    transition: 0.3s;
+}
+
+.nossotime .cards2 img {
+    border-radius: 50%;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.time1 {
+    font-size: 18px;
+}
+
+.parceiros {
+    background-color: purple;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.parceiros .h4n {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.parceiros .container5 .logotipos {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.parceiros .logotipos .left {
+    position: relative;
+    right: 180px;
+    border-radius: 10%;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.parceiros .logotipos .right {
+    position: relative;
+    left: 180px;
+    border-radius: 10%;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.forms {
+    background-color: purple;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.forms .form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forms .h1form {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(197, 228, 21);
+}
+
+.nomecaixa {
+    color: white;
+    font-size: 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bottom1 {
+    display: inline-block;
+    padding: 1.5px 1.5px;
+    color: purple;
+    text-decoration: none;
+    margin: 0 10px;
+    background-color: rgba(255, 255, 0, 0.863);
+    border-radius: 50px;
+    font-size: 15px;
+    width: 100px;
+    cursor: pointer;
+    transition: background-color 0,2s;
+
+}
+
+.footer {
+    background-color: rgba(255, 255, 0, 0.863);
+    display: flex;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .h3foot {
+    color: purple;
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 90%;
+    }
+
+    .container {
+        padding: 0 3%;
+    }
+
+    .nav {
+        padding-top: 30px;
+    }
+
+    .logo {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .ul {
+        display: flex;
+        align-items: center;
+    }
+
+    #disclaimer {
+        padding: 0 30px;
+    }
+
+    #disclaimer .h2 {
+        font-size: 20px;
+    }
+
+    #disclaimer .h3 {
+        font-size: 30px;
+    }
+
+    .button-customize1 {
+        width: 100px;
+        margin: 10px 0;
+    }
+
+    .button-customize {
+        font-size: 18px;
+    }
+
+    .NossosServiços h3 {
+        font-size: 30px;
+    }
+
+    .container1 {
+        padding: 0 3%;
+    }
+
+    .NossosServiços .card-item {
+        width: 300px;
+    }
+
+    .portfolio .h3n {
+        font-size: 30px;
+    }
+
+    .container2 {
+        padding: 0 3%;
+    }
+
+    .portfolio .cards {
+        width: 250px;
+        height: 250px;
+    }
+
+    .sobrenos h3 {
+        font-size: 30px;
+    }
+
+    .linhadotempo .ul2 .li2 {
+        width: 50%;
+    }
+
+    .linhadotempo .ul2 .li2 .hcri {
+        font-size: 25px;
+    }
+
+    .linhadotempo .ul2 .li2 .pcri {
+        font-size: 18px;
+    }
+
+    .linhadotempo .ul2 .li2 .tempo {
+        top: 12px;
+        right: -150px;
+    }
+
+    .nossotime .h4n {
+        font-size: 30px;
+    }
+
+    .container4 {
+        padding: 0 3%;
+    }
+
+    .nossotime .cards2 {
+        width: 300px;
+        height: 350px;
+    }
+
+    .parceiros .h4n {
+        font-size: 30px;
+    }
+
+    .parceiros .logotipos .left,
+    .parceiros .logotipos .right {
+        width: 150px;
+        right: 120px;
+        left: 120px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 100%;
+    }
+
+    .container {
+        padding: 0 5%;
+    }
+
+    .nav {
+        padding-top: 30px;
+    }
+
+    .logo {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .ul {
+        display: flex;
+        align-items: center;
+    }
+
+    #disclaimer {
+        padding: 0 90px;
+    }
+
+    #disclaimer .h2 {
+        font-size: 25px;
+    }
+
+    #disclaimer .h3 {
+        font-size: 45px;
+    }
+
+    .button-customize1 {
+        width: 100px;
+        margin: 10px 0;
+    }
+
+    .button-customize {
+        font-size: 20px;
+    }
+
+    .NossosServiços h3 {
+        font-size: 45px;
+    }
+
+    .container1 {
+        padding: 0 5%;
+    }
+
+    .NossosServiços .card-item {
+        width: 350px;
+    }
+
+    .portfolio .h3n {
+        font-size: 45px;
+    }
+
+    .container2 {
+        padding: 0 5%;
+    }
+
+    .portfolio .cards {
+        width: 350px;
+        height: 350px;
+    }
+
+    .sobrenos h3 {
+        font-size: 45px;
+    }
+
+    .linhadotempo .ul2 .li2 {
+        width: 50%;
+    }
+
+    .linhadotempo .ul2 .li2 .hcri {
+        font-size: 30px;
+    }
+
+    .linhadotempo .ul2 .li2 .pcri {
+        font-size: 20px;
+    }
+
+    .linhadotempo .ul2 .li2 .tempo {
+        top: 12px;
+        right: -165px;
+    }
+
+    .nossotime .h4n {
+        font-size: 45px;
+    }
+
+    .container4 {
+        padding: 0 5%;
+    }
+
+    .nossotime .cards2 {
+        width: 350px;
+        height: 400px;
+    }
+
+    .parceiros .h4n {
+        font-size: 45px;
+    }
+
+    .parceiros .logotipos .left,
+    .parceiros .logotipos .right {
+        width: 200px;
+        right: 180px;
+        left: 181px;
+    }
+}
