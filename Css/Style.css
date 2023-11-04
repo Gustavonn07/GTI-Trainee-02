@@ -713,10 +713,5 @@ html, body {
         font-size: 45px;
     }
 
-    .parceiros .logotipos .left,
-    .parceiros .logotipos .right {
-        width: 200px;
-        right: 180px;
-        left: 181px;
-    }
+    
 }
