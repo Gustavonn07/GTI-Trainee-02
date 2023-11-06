@@ -149,7 +149,7 @@ html {
 }
 
 .NossosServiços .card-item {
-    background-color: rgb(197, 228, 21);
+    background-color: #c5e415;
     margin: 15px;
     border-radius: 14px;
     text-align: center;
@@ -171,11 +171,6 @@ html {
 .NossosServiços .card-item .nome2 {
     font-size: 15px;
     padding: 0 15px;
-}
-
-.NossosServiços .card-item:hover {
-    background-color: rgb(212, 212, 21);
-    margin-top: -5px;
 }
 
 
