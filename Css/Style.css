@@ -1,5 +1,5 @@
 * {
-    font-family: 'Monstserrat', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -39,7 +39,6 @@ html {
 
 
 .logo {
-    font-family: "Monstserrat";
     color: purple;
     position: absolute;
     top: 0;
@@ -83,7 +82,6 @@ html {
 }
 
 #disclaimer {
-    font-family: "Monstserrat";
     color: white;
     display: flex;
     flex-direction: column;
@@ -115,7 +113,6 @@ html {
 
 
 .button-customize {
-    font-family: "Monstserrat";
     background-color:  rgb(197, 228, 21);
     color: purple;
     padding: 10px 20px;
@@ -133,7 +130,6 @@ html {
     background-color: purple;
 }
 .NossosServiços h3 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-size: 45px;
     text-align: center;
@@ -143,7 +139,6 @@ html {
     color: white;
 }
 .NossosServiços p {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -169,13 +164,11 @@ html {
 }
 
 .NossosServiços .card-item .nome1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     margin-bottom: 15px;
 }
 
 .NossosServiços .card-item .nome2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     padding: 0 15px;
 }
@@ -198,14 +191,12 @@ html, body {
 }
 
 .portfolio .h3n {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-size: 45px;
     text-align: center;
 }
 
 .portfolio .p1 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 30px;
     text-align: center;
     color: white;
@@ -244,7 +235,6 @@ html, body {
 }
 
 .h31 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-size: 45px;
     text-align: center;
@@ -335,14 +325,12 @@ html, body {
 }
 
 .nossotime .h4n {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-size: 45px;
     text-align: center;
 }
 
 .nossotime .p2 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 30px;
     text-align: center;
     color: white;
@@ -384,7 +372,6 @@ html, body {
 }
 
 .parceiros .h4n {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-size: 45px;
     text-align: center;
