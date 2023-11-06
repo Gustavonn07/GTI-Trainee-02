@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/Style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://cdn.tailwindcss.com"></script>
     <!-- Base -->
 </head>
 <body>
@@ -39,13 +38,13 @@
         <div class="container1">
             <h3>Nossos Serviços</h3>
             <p class="ods">Conheça os nossos serviços!</p>
-            <div class="servicos">
-                <div class="card-item">
+            <div class="servicos pb-20">
+                <div class="card-item translate-y-6 hover:translate-y-2 hover:bg-gameYellow hover:scale-105 hover:rotate-1">
                    <img src="Img/jogo.png" alt="">
                    <h2 class="nome1">Desenvolvimento de Jogos</h2>
                    <p class="nome2">Nós, da GameCrafters Studios, desenvolvemos jogos (2D ou 3D) de todas as categorias (aventura, RPG, Esportes e etc.) para todas as plataformas, como PC, consoles e dispositivos remotos. Garantindo sempre a incrível qualidade do produto.</p>
                 </div>
-                <div class="card-item">
+                <div class="card-item translate-y-6 hover:translate-y-2 hover:bg-gameYellow hover:scale-105 hover:rotate-1">
                     <img src="Img/caneta.png" alt="">
                     <h2 class="nome1">Design de Jogos</h2>
                     <p class="nome2">
@@ -54,7 +53,7 @@
 
                      </p>
                  </div>
-                 <div class="card-item">
+                 <div class="card-item translate-y-6 hover:translate-y-2 hover:bg-gameYellow hover:scale-105 hover:rotate-1">
                     <img src="Img/tomada-de-audio.png" alt="">
                     <h2 class="nome1">Audio e Trilha Sonora</h2>
                     <p class="nome2">
@@ -261,5 +260,18 @@
 
         </footer>
     </section>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                gameYellow: '#d4d415',
+              }
+            }
+          }
+        }
+      </script>
 </body>
 </html>
