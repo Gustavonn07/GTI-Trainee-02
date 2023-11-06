@@ -9,9 +9,9 @@
 
 html {
     width: 100vw;
-    height: 100vh;
     font-size: 90.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 
@@ -40,14 +40,10 @@ html {
 
 .logo {
     color: purple;
-    position: absolute;
-    top: 0;
-    left: 0;
     font-size: 35px;
     line-height: 50px;
     padding: 10px;
     font-weight: bold;
-    
 }
 
 .ul {
@@ -56,7 +52,6 @@ html {
 }
 
 .button-customize1 {
-    display: inline-block;
     padding: 1.5px 1.5px;
     color: purple;
     text-decoration: none;
