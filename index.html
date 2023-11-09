@@ -11,7 +11,7 @@
     <!-- Base -->
 </head>
 <body>
-    <header id="Banner-inicial">
+    <header id="header" class="bannerInicial banner-1 relative">
         <div class="container">
             <nav class="nav">
                 <div class="logo">GameCrafters Studios</div>
@@ -25,13 +25,19 @@
                     </ul>
                 </div>
             </nav>
-            <Section class="banner">
+            <section class="banner">
                 <div id="disclaimer">
                     <h2 class="h2">Bem vindo à GameCrafters Studios</h2>
                     <h3 class="h3">É sempre um prazer ter você por aqui!</h3>
                     <br>
                     <button class="button-customize">Nos conheça!</button>
+
+                    <div class="carrossel flex gap-32 absolute bottom-10">
+                        <box-icon name='left-arrow-alt' onclick="clicadoEsq()" class="esquerda fill-white shadow-xl w-10 h-10 hover:translate-y-2 translate-y-4 duration-200 active:translate-y-3 cursor-pointer"></box-icon>
+                        <box-icon name='right-arrow-alt' onclick="clicadoDir()" class="direita fill-white shadow-xl w-10 h-10 hover:translate-y-2 translate-y-4 duration-200 cursor-pointer active:translate-y-3"></box-icon>
+                    </div>
                 </div>
+            </section>
     </header>
 
     <section class="NossosServiços" id="serv">
@@ -260,7 +266,8 @@
 
         </footer>
     </section>
-    
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -273,5 +280,6 @@
           }
         }
       </script>
+      <script src="js/carrossel.js"></script>
 </body>
 </html>
