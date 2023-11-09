@@ -14,14 +14,24 @@ html {
     scroll-behavior: smooth;
 }
 
-
-#Banner-inicial {
-    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/img3.jpg");
-    background-position: center;
+.bannerInicial {
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    width: 100%;
     height: 100%;
+}
+
+.banner-1 {
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/Banner01.jpg");
+}
+
+.banner-2 {
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/Banner02.jpg");
+}
+
+.banner-3 {
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/Banner03.jpg");
 }
 
 .container {
