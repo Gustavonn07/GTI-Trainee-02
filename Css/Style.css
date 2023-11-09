@@ -23,15 +23,15 @@ html {
 }
 
 .banner-1 {
-    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/Banner01.jpg");
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../Img/Banner01.jpg");
 }
 
 .banner-2 {
-    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/Banner02.jpg");
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../Img/Banner02.jpg");
 }
 
 .banner-3 {
-    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/Banner03.jpg");
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../Img/Banner03.jpg");
 }
 
 .container {
